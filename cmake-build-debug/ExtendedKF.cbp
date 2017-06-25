@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ExtendedKF"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ExtendedKF">
+				<Option output="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/ExtendedKF" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExtendedKF"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ExtendedKF/fast">
+				<Option output="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/ExtendedKF" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExtendedKF/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/src/FusionEKF.cpp">
+			<Option target="ExtendedKF"/>
+		</Unit>
+		<Unit filename="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/src/FusionEKF.h">
+			<Option target="ExtendedKF"/>
+		</Unit>
+		<Unit filename="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/src/kalman_filter.cpp">
+			<Option target="ExtendedKF"/>
+		</Unit>
+		<Unit filename="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/src/kalman_filter.h">
+			<Option target="ExtendedKF"/>
+		</Unit>
+		<Unit filename="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/src/main.cpp">
+			<Option target="ExtendedKF"/>
+		</Unit>
+		<Unit filename="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/src/tools.cpp">
+			<Option target="ExtendedKF"/>
+		</Unit>
+		<Unit filename="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/src/tools.h">
+			<Option target="ExtendedKF"/>
+		</Unit>
+		<Unit filename="/home/lampros/CarND-Extended-Kalman-Filter-Project-lampros/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
